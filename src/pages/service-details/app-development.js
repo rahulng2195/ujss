@@ -159,7 +159,7 @@ const AppDevelopment = () => {
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
                   With billions of smartphone users worldwide, mobile apps have become the most powerful way to reach 
-                  and engage customers. A well-designed mobile app doesn't just provide convenience—it creates memorable 
+                  and engage customers. A well-designed mobile app doesn&#39;t just provide convenience—it creates memorable 
                   experiences, builds customer loyalty, and opens new revenue streams. Whether you need a simple app or 
                   a complex platform, we develop mobile solutions that help your business thrive in the mobile-first world.
                 </p>
@@ -311,7 +311,7 @@ const AppDevelopment = () => {
                   <span className="highlight">Mobile App?</span>
                 </h2>
                 <p className="cta-text">
-                  Let's turn your app idea into reality and connect you with millions of mobile users
+                  Let&#39;s turn your app idea into reality and connect you with millions of mobile users
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-primary-custom">

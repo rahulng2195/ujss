@@ -159,7 +159,7 @@ const BusinessSoftware = () => {
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Every business is unique, with its own processes, challenges, and goals. Off-the-shelf software often 
-                  falls short because it's designed for everyone, not specifically for you. We create custom business 
+                  falls short because it&#39;s designed for everyone, not specifically for you. We create custom business 
                   software—CRM systems, inventory management, billing solutions, and more—that fits your exact needs. 
                   Our solutions automate tasks, reduce errors, improve efficiency, and help your business run smoother 
                   and smarter.
@@ -341,7 +341,7 @@ const BusinessSoftware = () => {
                   <span className="highlight">Business Operations?</span>
                 </h2>
                 <p className="cta-text">
-                  Let's build custom software that automates tasks, improves efficiency, and drives growth
+                  Let&#39;s build custom software that automates tasks, improves efficiency, and drives growth
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-primary-custom">
