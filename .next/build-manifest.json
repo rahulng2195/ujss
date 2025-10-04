@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact/contact-dark": [
+    "/service-details/ai-agents": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact/contact-dark.js"
+      "static/chunks/pages/service-details/ai-agents.js"
+    ],
+    "/service-details/app-development": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/service-details/app-development.js"
+    ],
+    "/service-details/user-based-tally-on-cloud-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/service-details/user-based-tally-on-cloud-dark.js"
     ]
   },
   "ampFirstPages": []

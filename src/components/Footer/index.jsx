@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
 
@@ -109,7 +110,7 @@ const Footer = ({ noSubBG }) => {
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © 2025, All Rights Reserved By <Link href="/"><span>UJSS</span></Link>.
           </p>
         </div>
       </div>

@@ -47,6 +47,9 @@ const AboutUs1 = () => {
                 <p className="words chars splitting wow txt" data-splitting>
                   {AboutUs1Date.content}
                 </p>
+                <p className="words chars splitting wow txt mt-1" data-splitting>
+                  {AboutUs1Date.content2}
+                </p>
               </Split>
               <div className="ftbox mt-30">
                 <ul>

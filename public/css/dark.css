@@ -1705,7 +1705,9 @@ body {
         right: 0;
         bottom: 0;
         left: 0;
-        background-size: cover; }
+        background-size: cover;
+      background-position: center; 
+    }
     .slider .parallax-slider .swiper-slide-active .caption h1 {
       -webkit-transition: all 0s;
       -o-transition: all 0s;

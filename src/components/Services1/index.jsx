@@ -34,24 +34,40 @@ const Services1 = () => {
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
-            data-wow-delay=".5s"
-          >
+            data-wow-delay=".5s">
             <span className="icon pe-7s-paint-bucket"></span>
-            <h6>Graphic Design</h6>
+            <h6>Cloud & Servers</h6>
             <p>
-              Tempore corrupti temporibus fuga earum asperiores fugit
-              laudantium.
+              This would involve cloud hosting, server management, and related infrastructure services.
             </p>
           </div>
           <div
+            className="col-lg-3 col-md-6 item-box wow fadeInLeft"
+            data-wow-delay=".5s">
+            <span className="icon pe-7s-paint-bucket"></span>
+            <h6>Tally Solutions</h6>
+            <p>
+              Tally is a popular accounting and ERP software in India. This service likely includes Tally software sales, implementation, and support.
+            </p>
+          </div>
+          <div
+            className="col-lg-3 col-md-6 item-box wow fadeInLeft"
+            data-wow-delay=".5s">
+            <span className="icon pe-7s-paint-bucket"></span>
+            <h6>Digital Marketing</h6>
+            <p>
+              This is a broad category, but the user is likely offering services like SEO, social media marketing, and content marketing.
+            </p>
+          </div>
+          {/* <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
             data-wow-delay=".7s"
           >
             <span className="icon pe-7s-phone"></span>
             <h6>
-              Web &amp; <br /> Mobile Design
+              DSC &amp; <br /> Legal Services
             </h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
+            <p>DSC stands for Digital Signature Certifi cate. This service likely involves providing DSCs and other related legal compliance services for businesses.</p>
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
@@ -59,10 +75,10 @@ const Services1 = () => {
           >
             <span className="icon pe-7s-display1"></span>
             <h6>
-              Social <br /> media Marketing
+              Business Applications
             </h6>
-            <p>Tempore corrupti temporibus fuga earum asperiores fugit.</p>
-          </div>
+            <p>This could refer to custom software development, CRM implementation, or other business process automation tools.</p>
+          </div> */}
         </div>
       </div>
       <div className="half-bg bottom"></div>

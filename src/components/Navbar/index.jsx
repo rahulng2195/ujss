@@ -75,26 +75,51 @@ const Navbar = ({ lr, nr, theme }) => {
                 Services
               </span>
               <div className="dropdown-menu">
-                <Link href="/showcase/showcase-dark">
-                  <a className="dropdown-item">Tally Selling</a>
+                <Link href="/service-details/ai-agents">
+                  <a className="dropdown-item">AI Agents <sup><span className="hot badge badge-danger">NEW</span></sup></a>
                 </Link>
-                <Link href="/showcase2/showcase2-dark">
-                  <a className="dropdown-item">Tally on cloud</a>
-                </Link>
-                <Link href="/showcase3/showcase3-dark">
-                  <a className="dropdown-item">Digital Marketing</a>
-                </Link>
-                <Link href="/showcase4/showcase4-dark">
-                  <a className="dropdown-item">Website Development</a>
-                </Link>
-                <Link href="/showcase5/showcase5-dark">
-                  <a className="dropdown-item">Web Application</a>
-                </Link>
-                <Link href="/showcase5/showcase5-dark">
+                <Link href="/service-details/app-development">
                   <a className="dropdown-item">App Development</a>
                 </Link>
-                <Link href="/showcase5/showcase5-dark">
-                  <a className="dropdown-item">Mobile Application</a>
+                <Link href="/service-details/business-softwares">
+                  <a className="dropdown-item">Business Softwares</a>
+                </Link>
+                <li className="dropdown-submenu" onClick={handleDropdown}>
+                  <span
+                    className="dropdown-item dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Cloud & Services
+                  </span>
+                  <div className="dropdown-menu">
+                    <Link href="/service-details/user-based-tally-on-cloud-dark">
+                      <a className="dropdown-item">User Based Tally On Cloud</a>
+                    </Link>
+                    <Link href="/service-details/tally-on-dedicated-cloud-server">
+                      <a className="dropdown-item">Tally on Dedicated Cloud Server</a>
+                    </Link>
+                    <Link href="/service-details/tally-on-cloud-with-admin-panel">
+                      <a className="dropdown-item">Tally on Cloud with Admin Panel</a>
+                    </Link>
+                    <Link href="/service-details/tally-implementation">
+                      <a className="dropdown-item">Tally Implementation</a>
+                    </Link>
+                    <Link href="/service-details/tally-support-amc">
+                      <a className="dropdown-item">Tally Support (AMC)</a>
+                    </Link>
+                  </div>
+                </li>
+                <Link href="/service-details/digital-marketing">
+                  <a className="dropdown-item">Digital Marketing</a>
+                </Link>
+                <Link href="/service-details/dsc-and-legal-services">
+                  <a className="dropdown-item">DSC & Legal Services</a>
+                </Link>
+                <Link href="/service-details/web-application">
+                  <a className="dropdown-item">Web Application</a>
                 </Link>
               </div>
             </li>

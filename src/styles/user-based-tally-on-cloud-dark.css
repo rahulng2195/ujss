@@ -1,0 +1,197 @@
+
+        .service-detail-section {
+          background-color: #0a0f1e;
+          color: #fff;
+        }
+        
+        .hero-section {
+          padding: 150px 0 100px;
+          position: relative;
+        }
+        
+        .hero-section::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(135deg, rgba(26, 188, 156, 0.05) 0%, rgba(10, 15, 30, 1) 50%);
+          pointer-events: none;
+        }
+        
+        .hero-content {
+          position: relative;
+          z-index: 1;
+        }
+        
+        .service-tag {
+          color: #1abc9c;
+          font-size: 12px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 20px;
+          display: inline-block;
+        }
+        
+        .hero-title {
+          font-size: 70px;
+          font-weight: 700;
+          line-height: 1.2;
+          margin-bottom: 30px;
+        }
+        
+        .hero-title .highlight {
+          color: #1abc9c;
+        }
+        
+        .hero-subtitle {
+          font-size: 24px;
+          color: #a0aec0;
+          margin-bottom: 0;
+        }
+        
+        .content-section {
+          padding: 100px 0;
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .section-number {
+          font-size: 80px;
+          font-weight: 700;
+          color: rgba(26, 188, 156, 0.15);
+          line-height: 1;
+          margin-bottom: 10px;
+        }
+        
+        .section-title {
+          font-size: 42px;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+        
+        .section-description {
+          font-size: 18px;
+          line-height: 1.8;
+          color: #cbd5e0;
+        }
+        
+        .benefit-card {
+          background: rgba(255, 255, 255, 0.03);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          border-radius: 8px;
+          padding: 40px 30px;
+          margin-bottom: 30px;
+          transition: all 0.3s ease;
+          height: 100%;
+        }
+        
+        .benefit-card:hover {
+          border-color: rgba(26, 188, 156, 0.5);
+          transform: translateY(-5px);
+          background: rgba(26, 188, 156, 0.03);
+        }
+        
+        .benefit-icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 8px;
+          background: rgba(26, 188, 156, 0.1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+        }
+        
+        .benefit-icon svg {
+          color: #1abc9c;
+        }
+        
+        .benefit-title {
+          font-size: 22px;
+          font-weight: 600;
+          margin-bottom: 15px;
+          color: #fff;
+        }
+        
+        .benefit-description {
+          font-size: 16px;
+          line-height: 1.7;
+          color: #a0aec0;
+          margin-bottom: 0;
+        }
+        
+        .cta-section {
+          padding: 100px 0;
+          border-top: 1px solid rgba(255, 255, 255, 0.1);
+          text-align: center;
+        }
+        
+        .cta-title {
+          font-size: 48px;
+          font-weight: 700;
+          margin-bottom: 20px;
+          line-height: 1.3;
+        }
+        
+        .cta-text {
+          font-size: 20px;
+          color: #a0aec0;
+          margin-bottom: 40px;
+        }
+        
+        .btn-primary-custom {
+          background-color: #1abc9c;
+          border: none;
+          color: #0a0f1e;
+          padding: 15px 40px;
+          font-size: 16px;
+          font-weight: 600;
+          border-radius: 5px;
+          transition: all 0.3s ease;
+          margin: 0 10px 15px;
+        }
+        
+        .btn-primary-custom:hover {
+          background-color: #16a085;
+          transform: translateY(-2px);
+          box-shadow: 0 10px 25px rgba(26, 188, 156, 0.3);
+        }
+        
+        .btn-outline-custom {
+          background-color: transparent;
+          border: 2px solid rgba(255, 255, 255, 0.2);
+          color: #fff;
+          padding: 15px 40px;
+          font-size: 16px;
+          font-weight: 600;
+          border-radius: 5px;
+          transition: all 0.3s ease;
+          margin: 0 10px 15px;
+        }
+        
+        .btn-outline-custom:hover {
+          border-color: #1abc9c;
+          color: #1abc9c;
+          transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+          .hero-title {
+            font-size: 42px;
+          }
+          
+          .section-number {
+            font-size: 60px;
+          }
+          
+          .section-title {
+            font-size: 32px;
+          }
+          
+          .cta-title {
+            font-size: 32px;
+          }
+        }
+      
