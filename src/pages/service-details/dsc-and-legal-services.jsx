@@ -279,7 +279,7 @@ const DSCLegalServices = () => {
               </div>
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
-                  We've streamlined the registration process to make it quick, easy, and stress-free for you.
+                  We&#39;ve streamlined the registration process to make it quick, easy, and stress-free for you.
                 </p>
               </div>
             </div>

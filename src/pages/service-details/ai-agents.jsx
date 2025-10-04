@@ -189,9 +189,9 @@ const AIAgentsService = () => {
                   complex tasks just like a human employee would—but faster, cheaper, and without ever getting tired.
                 </p>
                 <p className="section-description mb-4">
-                  <strong>Here's a simple example:</strong> Instead of you manually reading every customer email, deciding 
+                  <strong>Here&#39;s a simple example:</strong> Instead of you manually reading every customer email, deciding 
                   how to respond, typing the reply, and following up later—an AI agent does all of this automatically. It 
-                  reads the email, understands what the customer needs, writes an appropriate response in your company's 
+                  reads the email, understands what the customer needs, writes an appropriate response in your company&#39;s 
                   tone, sends it, and even sets a reminder to follow up if needed.
                 </p>
                 <p className="section-description">
@@ -364,7 +364,7 @@ const AIAgentsService = () => {
                 <div className="mb-5 p-4" style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '8px' }}>
                   <h4 style={{ fontSize: '1.2rem', fontWeight: '600', marginBottom: '1rem' }}>Real Estate Agency</h4>
                   <p className="section-description mb-3">
-                    <strong>Challenge:</strong> Missing leads because agents couldn't respond quickly enough
+                    <strong>Challenge:</strong> Missing leads because agents couldn&#39;t respond quickly enough
                   </p>
                   <p className="section-description mb-3">
                     <strong>Solution:</strong> Implemented lead qualification and follow-up AI agent
@@ -410,7 +410,7 @@ const AIAgentsService = () => {
                   <strong>Scalable Solution:</strong> Start with one AI agent and add more as you see results. No long-term commitments—pay only for what you use.
                 </p>
                 <p className="section-description">
-                  <strong>Free Consultation:</strong> We'll analyze your business processes and show you exactly where AI agents can save you time and money—at no cost.
+                  <strong>Free Consultation:</strong> We&#39;ll analyze your business processes and show you exactly where AI agents can save you time and money—at no cost.
                 </p>
               </div>
             </div>

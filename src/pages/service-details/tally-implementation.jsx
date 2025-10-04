@@ -108,7 +108,7 @@ const TallyImplementation = () => {
               </div>
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
-                  Smart Tally setup isn't just about installing software—it's about making your business run smoother. 
+                  Smart Tally setup isn&#39;t just about installing software—it&#39;s about making your business run smoother. 
                   At Software@Work, we customize Tally to fit your exact needs. From quick setup to easy configuration 
                   and hands-on training, we make sure you get a hassle-free experience that saves time, improves efficiency, 
                   and helps your business grow.
@@ -128,7 +128,7 @@ const TallyImplementation = () => {
               </div>
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
-                  Harness Tally's Full Power for Smooth Operations
+                  Harness Tally&#39;s Full Power for Smooth Operations
                 </p>
               </div>
             </div>

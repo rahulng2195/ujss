@@ -135,9 +135,9 @@ const DigitalMarketingService = () => {
               </div>
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
-                  In today's digital world, your customers are online—searching, browsing, and making decisions. 
+                  In today&#39;s digital world, your customers are online—searching, browsing, and making decisions. 
                   Digital marketing helps you meet them where they are, build meaningful connections, and turn 
-                  online visitors into loyal customers. Whether you're looking to increase brand awareness, drive 
+                  online visitors into loyal customers. Whether you&#39;re looking to increase brand awareness, drive 
                   website traffic, or boost sales, our comprehensive digital marketing solutions are designed to 
                   deliver real, measurable results for your business.
                 </p>
@@ -284,7 +284,7 @@ const DigitalMarketingService = () => {
                   <span className="highlight">Online Presence?</span>
                 </h2>
                 <p className="cta-text">
-                  Let's discuss how digital marketing can help your business reach more customers and increase revenue
+                  Let&#39;s discuss how digital marketing can help your business reach more customers and increase revenue
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-primary-custom">
