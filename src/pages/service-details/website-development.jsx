@@ -158,8 +158,8 @@ const WebsiteDevelopment = () => {
               </div>
               <div className="col-lg-8 col-md-8 offset-lg-1">
                 <p className="section-description">
-                  Your website is often the first impression customers have of your business. In today's digital world, 
-                  a professional, user-friendly website isn't just nice to have—it's essential for business success. 
+                  Your website is often the first impression customers have of your business. In today&#39;s digital world, 
+                  a professional, user-friendly website isn&#39;t just nice to have—it&#39;s essential for business success. 
                   We create websites that not only look stunning but also drive real results, turning visitors into 
                   customers and helping your business grow. Whether you need a simple business website or a complex 
                   e-commerce platform, we deliver solutions that work.
@@ -312,7 +312,7 @@ const WebsiteDevelopment = () => {
                   <span className="highlight">Dream Website?</span>
                 </h2>
                 <p className="cta-text">
-                  Let's create a website that represents your brand and drives real business results
+                  Let&#39;s create a website that represents your brand and drives real business results
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-primary-custom">
