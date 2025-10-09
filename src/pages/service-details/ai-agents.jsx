@@ -2,6 +2,8 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Bot, MessageSquare, Mail, Users, TrendingUp, BarChart3, Calendar, FileText, Zap, Clock, Target, Shield, Sparkles, Brain } from 'lucide-react';
+import Footer from "../../components/Footer";
+
 
 const AIAgentsService = () => {
   const navbarRef = React.useRef(null);
@@ -178,11 +180,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">What is an AI Agent?</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description mb-4">
                   Think of an AI agent as a smart digital assistant that can think, learn, and act on its own. Unlike 
                   simple automation that just follows rules, AI agents can understand context, make decisions, and handle 
@@ -207,11 +209,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Ready-to-Use AI Agents</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Our AI agents are pre-built and ready to deploy in your business immediately. No complex setup, no coding required.
                 </p>
@@ -241,11 +243,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Why Businesses Love AI Agents</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover how AI agents transform everyday business operations and deliver remarkable results.
                 </p>
@@ -275,11 +277,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">Real-World Use Cases</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   See how AI agents solve real business problems across different departments.
                 </p>
@@ -312,11 +314,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">How We Implement AI Agents</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   From consultation to deployment, we make AI adoption simple and effective for your business.
                 </p>
@@ -343,11 +345,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">06</div>
                 <h2 className="section-title">Real Results</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <div className="mb-5 p-4" style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '8px' }}>
                   <h4 style={{ fontSize: '1.2rem', fontWeight: '600', marginBottom: '1rem' }}>E-Commerce Company</h4>
                   <p className="section-description mb-3">
@@ -395,11 +397,11 @@ const AIAgentsService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">07</div>
                 <h2 className="section-title">Investment & ROI</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description mb-4">
                   <strong>Affordable for Any Business:</strong> AI agents cost less than hiring a single employee, with packages starting from just a few hundred dollars per month.
                 </p>
@@ -441,6 +443,7 @@ const AIAgentsService = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

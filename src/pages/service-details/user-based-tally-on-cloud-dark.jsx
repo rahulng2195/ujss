@@ -2,6 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Cloud, Shield, Database, Zap, Printer, Save } from 'lucide-react';
+import Footer from "../../components/Footer";
 
 const UserBasedTally = () => {
   const navbarRef = React.useRef(null);
@@ -83,11 +84,11 @@ const UserBasedTally = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Introduction</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   No more boundaries! With Tally on Cloud, your accounts travel with you. 
                   Access TallyPrime 24/7 from any device, stay connected to your business on 
@@ -102,11 +103,11 @@ const UserBasedTally = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Key Benefits</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover how Tally on Cloud transforms your accounting experience with 
                   powerful features designed for modern businesses.
@@ -157,6 +158,7 @@ const UserBasedTally = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Smartphone, TabletSmartphone, Layers, Zap, Users, ShoppingBag, Bell, Lock, RefreshCw, Award, TrendingUp, Heart } from 'lucide-react';
+import Footer from "../../components/Footer";
 
 const AppDevelopment = () => {
   const navbarRef = React.useRef(null);
@@ -152,11 +153,11 @@ const AppDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Your Business in Every Pocket</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   With billions of smartphone users worldwide, mobile apps have become the most powerful way to reach 
                   and engage customers. A well-designed mobile app doesn&#39;t just provide convenience—it creates memorable 
@@ -172,11 +173,11 @@ const AppDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">App Solutions We Build</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   From native to cross-platform apps, we create mobile solutions for every business need.
                 </p>
@@ -206,11 +207,11 @@ const AppDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Why Your Business Needs a Mobile App</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover how mobile apps can transform customer relationships and drive business growth.
                 </p>
@@ -240,11 +241,11 @@ const AppDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">What Makes Our Apps Stand Out</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   We build apps with features that users love and technology that businesses trust.
                 </p>
@@ -274,11 +275,11 @@ const AppDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Our App Development Journey</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   From idea to app store, we guide you through every step of the development process.
                 </p>
@@ -325,6 +326,7 @@ const AppDevelopment = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

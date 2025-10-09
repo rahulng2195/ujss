@@ -16,9 +16,8 @@ const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
       ref={nr}
-      className={`navbar navbar-expand-lg change ${
-        theme === "themeL" ? "light" : ""
-      }`}
+      className={`navbar navbar-expand-lg change ${theme === "themeL" ? "light" : ""
+        }`}
     >
       <div className="container">
         <Link href="/">
@@ -76,25 +75,28 @@ const Navbar = ({ lr, nr, theme }) => {
               </span>
               <div className="dropdown-menu">
                 <Link href="/service-details/ai-agents">
-                  <a className="dropdown-item">AI Agents <sup><span className="hot badge badge-danger">NEW</span></sup></a>
+                  <a className="dropdown-item">
+                    AI Agents <sup><span className="hot badge badge-danger">NEW</span></sup>
+                  </a>
                 </Link>
                 <Link href="/service-details/app-development">
                   <a className="dropdown-item">App Development</a>
                 </Link>
-                <Link href="/service-details/business-softwares">
+                <Link href="/service-details/business-software">
                   <a className="dropdown-item">Business Softwares</a>
                 </Link>
-                <li className="dropdown-submenu" onClick={handleDropdown}>
+
+                {/* Fixed submenu - using div instead of li */}
+                <div className="dropdown-submenu">
                   <span
                     className="dropdown-item dropdown-toggle"
-                    data-toggle="dropdown"
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     Cloud & Services
                   </span>
-                  <div className="dropdown-menu">
+                  <div className="dropdown-menu submenu-menu">
                     <Link href="/service-details/user-based-tally-on-cloud-dark">
                       <a className="dropdown-item">User Based Tally On Cloud</a>
                     </Link>
@@ -111,7 +113,8 @@ const Navbar = ({ lr, nr, theme }) => {
                       <a className="dropdown-item">Tally Support (AMC)</a>
                     </Link>
                   </div>
-                </li>
+                </div>
+
                 <Link href="/service-details/digital-marketing">
                   <a className="dropdown-item">Digital Marketing</a>
                 </Link>
@@ -123,15 +126,15 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
               </div>
             </li>
-            
+
             <li className="nav-item">
-              <Link href="/portfolio/portfolio-dark">
-                <a className="nav-link">Portfolio</a>
+              <Link href="/soon/coming-soon">
+                <a className="nav-link">PlayGround</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/blogs/blogs-dark">
-                <a className="nav-link">Blogs</a>
+              <Link href="/career/careers-dark">
+                <a className="nav-link">Career</a>
               </Link>
             </li>
             <li className="nav-item">
@@ -149,7 +152,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 }}
                 onSubmit={async (values) => {
                   alert(JSON.stringify(values, null, 2));
-                  
+
                   values.search = "";
                 }}
               >

@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
+import DarkTheme from "../../layouts/Dark";
 import { UserCog, Shield, Zap, Database, Users, LayoutDashboard } from 'lucide-react';
-
+import Footer from "../../components/Footer";
 const TallyWithAdminPanel = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -58,6 +59,7 @@ const TallyWithAdminPanel = () => {
 
   return (
     <>
+    <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <div className="service-detail-section">
         {/* Hero Section */}
@@ -82,11 +84,11 @@ const TallyWithAdminPanel = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Introduction</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Take charge of your Tally on Cloud experience with a dedicated admin panel. 
                   This powerful solution gives you the tools to manage users, monitor activity, and customize your Tally environment to fit your business needs.
@@ -100,11 +102,11 @@ const TallyWithAdminPanel = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Key Benefits</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover the advantages of having full administrative control over your Tally on Cloud.
                 </p>
@@ -154,7 +156,9 @@ const TallyWithAdminPanel = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
+      </DarkTheme>
     </>
   );
 };

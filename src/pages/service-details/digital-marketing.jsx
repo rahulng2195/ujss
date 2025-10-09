@@ -2,7 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Search, Share2, FileText, MousePointerClick, Mail, BarChart3, Target, TrendingUp, Users, Award, Zap, Globe } from 'lucide-react';
-
+import Footer from "../../components/Footer";
 const DigitalMarketingService = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -129,11 +129,11 @@ const DigitalMarketingService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Why Digital Marketing Matters</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   In today&#39;s digital world, your customers are online—searching, browsing, and making decisions. 
                   Digital marketing helps you meet them where they are, build meaningful connections, and turn 
@@ -150,11 +150,11 @@ const DigitalMarketingService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Our Digital Marketing Services</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Comprehensive solutions to amplify your online presence and drive business growth.
                 </p>
@@ -184,11 +184,11 @@ const DigitalMarketingService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Benefits for Your Business</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover how digital marketing transforms your business and delivers tangible results.
                 </p>
@@ -218,11 +218,11 @@ const DigitalMarketingService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">How We Work</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Our proven approach ensures your digital marketing delivers maximum impact and measurable ROI.
                 </p>
@@ -252,11 +252,11 @@ const DigitalMarketingService = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Why Choose Us</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description mb-4">
                   <strong>Results-Driven Approach:</strong> We focus on delivering measurable outcomes that directly impact your bottom line, not just vanity metrics.
                 </p>
@@ -298,6 +298,7 @@ const DigitalMarketingService = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

@@ -125,11 +125,11 @@ const TallySupportAMC = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Introduction</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Maximize the power of TallyPrime with UJ Software and solutions. Our expert support and 
                   annual maintenance contracts guarantee seamless performance and hassle-free operations. 
@@ -145,11 +145,11 @@ const TallySupportAMC = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Our AMC Benefits</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Comprehensive advantages designed to keep your Tally running smoothly year-round.
                 </p>
@@ -179,11 +179,11 @@ const TallySupportAMC = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Types of Tally AMC Support</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Multiple support channels to assist you whenever and however you need help.
                 </p>
@@ -213,11 +213,11 @@ const TallySupportAMC = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">Data Synchronization</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <h3 className="mb-4" style={{ fontSize: '1.5rem', fontWeight: '600' }}>What is Data Synchronization?</h3>
                 <p className="section-description mb-4">
                   Tally Data Synchronization simplifies the way you manage information across multiple business locations. 
@@ -242,11 +242,11 @@ const TallySupportAMC = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Why Choose Tally Sync?</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Experience the advantages of synchronized data management across your entire business network.
                 </p>
@@ -296,8 +296,8 @@ const TallySupportAMC = () => {
             </div>
           </div>
         </section>
-      </div>
       <Footer />
+      </div>
     </DarkTheme>
   );
 };

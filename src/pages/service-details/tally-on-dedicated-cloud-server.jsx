@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import { Server, Shield, Zap, Database, Users, TrendingUp } from 'lucide-react';
-
+import DarkTheme from "../../layouts/Dark";
+import Footer from "../../components/Footer";
 const TallyOnDedicatedServer = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -58,6 +59,7 @@ const TallyOnDedicatedServer = () => {
 
   return (
     <>
+    <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <div className="service-detail-section">
         {/* Hero Section */}
@@ -82,11 +84,11 @@ const TallyOnDedicatedServer = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Introduction</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Unlock unparalleled control and performance with Tally on a Dedicated Cloud Server. 
                   This premium solution offers an isolated, high-speed environment where your Tally operations can thrive without compromise.
@@ -100,11 +102,11 @@ const TallyOnDedicatedServer = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Key Benefits</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Experience the power of a dedicated server for your Tally operations.
                 </p>
@@ -154,7 +156,9 @@ const TallyOnDedicatedServer = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
+      </DarkTheme>
     </>
   );
 };

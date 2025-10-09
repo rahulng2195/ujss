@@ -2,6 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Globe, Smartphone, Zap, Shield, Search, Palette, Code, Layout, ShoppingCart, Award, Users, TrendingUp } from 'lucide-react';
+import Footer from "../../components/Footer";
 
 const WebsiteDevelopment = () => {
   const navbarRef = React.useRef(null);
@@ -152,11 +153,11 @@ const WebsiteDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Your Digital Storefront</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Your website is often the first impression customers have of your business. In today&#39;s digital world, 
                   a professional, user-friendly website isn&#39;t just nice to have—it&#39;s essential for business success. 
@@ -173,11 +174,11 @@ const WebsiteDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Website Solutions We Offer</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   From simple business sites to complex web applications, we build digital solutions tailored to your needs.
                 </p>
@@ -207,11 +208,11 @@ const WebsiteDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Why Your Business Needs a Website</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover how a professional website transforms your business and opens new opportunities.
                 </p>
@@ -241,11 +242,11 @@ const WebsiteDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">Key Features</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Every website we build includes these essential features for optimal performance and results.
                 </p>
@@ -275,11 +276,11 @@ const WebsiteDevelopment = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Our Development Process</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   A proven approach that ensures your website is delivered on time, within budget, and exceeds expectations.
                 </p>
@@ -326,6 +327,7 @@ const WebsiteDevelopment = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

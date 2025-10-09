@@ -2,7 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { Users, ShoppingCart, BarChart3, Package, DollarSign, FileText, Settings, Zap, Target, TrendingUp, Shield, Cloud } from 'lucide-react';
-
+import Footer from "../../components/Footer";
 const BusinessSoftware = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -152,11 +152,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">p
                 <div className="section-number">01</div>
                 <h2 className="section-title">Software Built for Your Business</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Every business is unique, with its own processes, challenges, and goals. Off-the-shelf software often 
                   falls short because it&#39;s designed for everyone, not specifically for you. We create custom business 
@@ -173,11 +173,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Software Solutions We Build</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   From CRM to inventory management, we develop software that solves real business problems.
                 </p>
@@ -207,11 +207,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">How Custom Software Helps Your Business</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Discover the transformative impact of software designed specifically for your operations.
                 </p>
@@ -241,11 +241,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">What Makes Our Software Different</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Built with the features and flexibility your business needs to succeed and scale.
                 </p>
@@ -275,11 +275,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Our Development Approach</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   A collaborative process that ensures your software perfectly matches your business needs.
                 </p>
@@ -306,11 +306,11 @@ const BusinessSoftware = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">06</div>
                 <h2 className="section-title">Industries We Serve</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description mb-4">
                   <strong>Retail & E-Commerce:</strong> Inventory management, POS systems, and customer loyalty platforms.
                 </p>
@@ -355,6 +355,7 @@ const BusinessSoftware = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );

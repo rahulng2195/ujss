@@ -102,11 +102,11 @@ const TallyImplementation = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Introduction</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Smart Tally setup isn&#39;t just about installing software—it&#39;s about making your business run smoother. 
                   At Software@Work, we customize Tally to fit your exact needs. From quick setup to easy configuration 
@@ -122,11 +122,11 @@ const TallyImplementation = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Benefits of Tally Implementation</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Harness Tally&#39;s Full Power for Smooth Operations
                 </p>
@@ -156,11 +156,11 @@ const TallyImplementation = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">The Way We Implement Tally</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Our proven methodology ensures a smooth transition to Tally with minimal disruption to your business operations.
                 </p>
@@ -210,8 +210,8 @@ const TallyImplementation = () => {
             </div>
           </div>
         </section>
-      </div>
       <Footer /> 
+      </div>
     </DarkTheme>
   );
 };

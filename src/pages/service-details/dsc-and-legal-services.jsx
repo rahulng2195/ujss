@@ -2,7 +2,7 @@ import React from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar";
 import { FileText, Store, Rocket, Globe, UtensilsCrossed, Award, Building2, Shield, CheckCircle, Clock, Users, TrendingUp } from 'lucide-react';
-
+import Footer from "../../components/Footer";
 const DSCLegalServices = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -153,11 +153,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">01</div>
                 <h2 className="section-title">Your Compliance Partner</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Running a business means navigating complex legal requirements, licenses, and registrations. Missing 
                   even one mandatory registration can lead to penalties, legal troubles, or business disruptions. We make 
@@ -174,11 +174,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">02</div>
                 <h2 className="section-title">Our Legal & Registration Services</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Comprehensive licensing and registration solutions for all types of businesses across industries.
                 </p>
@@ -208,11 +208,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">03</div>
                 <h2 className="section-title">Why Choose Our Services</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Experience the advantage of working with compliance experts who understand business needs.
                 </p>
@@ -242,11 +242,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">04</div>
                 <h2 className="section-title">Why Business Registration Matters</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   Understanding the importance of proper licensing and registration for your business success.
                 </p>
@@ -273,11 +273,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">05</div>
                 <h2 className="section-title">Our Simple 4-Step Process</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description">
                   We&#39;ve streamlined the registration process to make it quick, easy, and stress-free for you.
                 </p>
@@ -304,11 +304,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">06</div>
                 <h2 className="section-title">Who Needs These Services?</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <p className="section-description mb-4">
                   <strong>Startups & New Businesses:</strong> Get your business legally registered and compliant from day one with startup registration, shop act license, and other essential permits.
                 </p>
@@ -336,11 +336,11 @@ const DSCLegalServices = () => {
         <section className="content-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-3 col-md-4">
+              <div className="col-lg-4 col-md-4">
                 <div className="section-number">07</div>
                 <h2 className="section-title">Common Questions</h2>
               </div>
-              <div className="col-lg-8 col-md-8 offset-lg-1">
+              <div className="col-lg-7 col-md-8 offset-lg-1">
                 <div className="mb-4">
                   <h4 style={{ fontSize: '1.1rem', fontWeight: '600', marginBottom: '0.5rem' }}>How long does the registration process take?</h4>
                   <p className="section-description">
@@ -394,6 +394,7 @@ const DSCLegalServices = () => {
             </div>
           </div>
         </section>
+      <Footer />
       </div>
     </DarkTheme>
   );
