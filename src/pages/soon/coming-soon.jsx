@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import appData from "../../data/app.json";
 
 const ComingSoonSimple = () => {
@@ -9,44 +10,49 @@ const ComingSoonSimple = () => {
       <Head>
         <title>Coming Soon - UJ Software & Solutions</title>
       </Head>
-      
+
       <div className="coming-soon-simple">
         <div className="container">
           <div className="row justify-content-center align-items-center min-vh-100">
             <div className="col-lg-8 text-center">
               {/* Logo */}
-              <div className="mb-5">
-                <img src={appData.lightLogo} alt="Logo" className="logo mb-4" />
-              </div>
+              <Image
+                src={appData.lightLogo}
+                alt="Logo"
+                className="logo mb-4"
+                width={200}
+                height={60}
+                priority
+              />
+            </div>
 
-              {/* Content */}
-              <h1 className="display-3 fw-bold text-white mb-4">
-                Coming Soon
-              </h1>
-              <p className="lead text-white-50 mb-5">
-                We're working on something exciting. This page will be available soon!
-              </p>
+            {/* Content */}
+            <h1 className="display-3 fw-bold text-white mb-4">
+              Coming Soon
+            </h1>
+            <p className="lead text-white-50 mb-5">
+              We&apos;re working on something exciting. This page will be available soon!
+            </p>
 
-              {/* Back to Home */}
-              <Link href="/">
-                <a className="btn-back-home">
-                  <i className="fas fa-arrow-left me-2"></i>
-                  Back to Home
-                </a>
-              </Link>
+            {/* Back to Home */}
+            <Link href="/">
+              <a className="btn-back-home">
+                <i className="fas fa-arrow-left me-2"></i>
+                Back to Home
+              </a>
+            </Link>
 
-              {/* Contact */}
-              <div className="mt-5 pt-5">
-                <p className="text-white-50">Need help?</p>
-                <a href="mailto:enquiry@ujss.in" className="text-white">
-                  enquiry@ujss.in
-                </a>
-              </div>
+            {/* Contact */}
+            <div className="mt-5 pt-5">
+              <p className="text-white-50">Need help?</p>
+              <a href="mailto:enquiry@ujss.in" className="text-white">
+                enquiry@ujss.in
+              </a>
             </div>
           </div>
         </div>
 
-        <style jsx>{`
+      <style jsx>{`
           .coming-soon-simple {
             min-height: 100vh;
             background: linear-gradient(135deg, #0a0e14 0%, #1a1f2e 100%);
@@ -87,7 +93,7 @@ const ComingSoonSimple = () => {
             }
           }
         `}</style>
-      </div>
+    </div >
     </>
   );
 };
