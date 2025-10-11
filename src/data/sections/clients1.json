@@ -2,49 +2,49 @@
   {
     "id": 1,
     "lightImage": "/img/clients/brands/light/1.png",
-    "darkImage": "/img/clients/brands/dark/01.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/wasan toyota.png",
+    "url": "www.wasantoyota.com"
   },
   {
     "id": 2,
     "lightImage": "/img/clients/brands/light/2.png",
-    "darkImage": "/img/clients/brands/dark/02.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/commedialogo.jpg",
+    "url": "www.commediaindia.com"
   },
   {
     "id": 3,
     "lightImage": "/img/clients/brands/light/3.png",
-    "darkImage": "/img/clients/brands/dark/03.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/Earthnetic logo.png",
+    "url": "www.earthnetic.com"
   },
   {
     "id": 4,
     "lightImage": "/img/clients/brands/light/4.png",
-    "darkImage": "/img/clients/brands/dark/04.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/sun impex logo.png",
+    "url": "www.sunimpex.biz"
   },
   {
     "id": 5,
     "lightImage": "/img/clients/brands/light/5.png",
-    "darkImage": "/img/clients/brands/dark/05.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/isprava logo.png",
+    "url": "www.isprava.com"
   },
   {
     "id": 6,
     "lightImage": "/img/clients/brands/light/6.png",
-    "darkImage": "/img/clients/brands/dark/06.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/jn lighting logo.webp",
+    "url": "www.hybec.net"
   },
   {
     "id": 7,
     "lightImage": "/img/clients/brands/light/7.png",
-    "darkImage": "/img/clients/brands/dark/07.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/sp electro logo.png",
+    "url": "www.spelectrotek.com"
   },
   {
     "id": 8,
     "lightImage": "/img/clients/brands/light/8.png",
-    "darkImage": "/img/clients/brands/dark/08.png",
-    "url": "www.avo.com"
+    "darkImage": "/img/CompanyLogo/maharashtra logo.webp",
+    "url": "www.mahamarkfed.org"
   }
 ]

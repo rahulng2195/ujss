@@ -25,7 +25,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
         )}
         <div className="row">
           {services4Data.map((item, index) => (
-            <div className="col-lg-4" key={item.id}>
+            <div className="col-lg-4 mt-2" key={item.id}>
               <div
                 className={`item ${
                   index != services4Data.length - 1 ? "md-mb50" : ""

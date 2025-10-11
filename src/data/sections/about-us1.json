@@ -1,8 +1,8 @@
 {
   "id": 1,
-  "image1": "/img/intro/1.jpg",
-  "image2": "/img/intro/3.jpg",
-  "image3": "/img/intro/2.jpg",
+  "image1": "/img/about/about1.jpg",
+  "image2": "/img/about/about2.png",
+  "image3": "/img/about/about3.png",
   "smallTitle": "About Us",
   "title": { "first": "Empowering Businesses with", "second": "Cloud & Tally Excellence." },
   "content": "At UJ Software & Solutions (UJSS), we go beyond technology we build smart digital ecosystems for businesses. Our mission is simple: to help organizations scale faster, work smarter, and achieve more with the power of secure cloud infrastructure and expert Tally solutions. ",

@@ -50,8 +50,8 @@ const Homepage1 = () => {
       <div ref={MainContent} className="main-content">
         <AboutUs1 />
         <Services1 />
-        <Numbers1 />
-        <Works1Slider />
+        {/* <Numbers1 /> */}
+        {/* <Works1Slider />   */}
         <VideoWithTestimonials />
         <SkillsCircle theme="dark" subBG />
         <Clients1 theme="dark" />

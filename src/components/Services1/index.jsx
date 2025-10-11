@@ -26,20 +26,11 @@ const Services1 = () => {
             <h4 className="custom-font">
               Best Of <br /> Our Features
             </h4>
-            <Link href="/about/about-dark">
+            <Link href="/service">
               <a className="btn-curve btn-bord btn-lit mt-40">
                 <span>See All Services</span>
               </a>
             </Link>
-          </div>
-          <div
-            className="col-lg-3 col-md-6 item-box wow fadeInLeft"
-            data-wow-delay=".5s">
-            <span className="icon pe-7s-paint-bucket"></span>
-            <h6>Cloud & Servers</h6>
-            <p>
-              This would involve cloud hosting, server management, and related infrastructure services.
-            </p>
           </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
@@ -59,26 +50,15 @@ const Services1 = () => {
               This is a broad category, but the user is likely offering services like SEO, social media marketing, and content marketing.
             </p>
           </div>
-          {/* <div
-            className="col-lg-3 col-md-6 item-box wow fadeInLeft"
-            data-wow-delay=".7s"
-          >
-            <span className="icon pe-7s-phone"></span>
-            <h6>
-              DSC &amp; <br /> Legal Services
-            </h6>
-            <p>DSC stands for Digital Signature Certifi cate. This service likely involves providing DSCs and other related legal compliance services for businesses.</p>
-          </div>
           <div
             className="col-lg-3 col-md-6 item-box wow fadeInLeft"
-            data-wow-delay=".9s"
-          >
-            <span className="icon pe-7s-display1"></span>
-            <h6>
-              Business Applications
-            </h6>
-            <p>This could refer to custom software development, CRM implementation, or other business process automation tools.</p>
-          </div> */}
+            data-wow-delay=".5s">
+            <span className="icon pe-7s-paint-bucket"></span>
+            <h6>AI Agents <sup><span className="badge badge-danger">New</span></sup></h6>
+            <p>
+              An intelligent AI agent that automates tasks, analyzes data, and delivers smart business insights.
+            </p>
+          </div>
         </div>
       </div>
       <div className="half-bg bottom"></div>

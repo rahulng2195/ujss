@@ -183,7 +183,8 @@ a, span {
 
 .bg-img {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .bg-center {
   background-position: center center; }
@@ -1412,7 +1413,7 @@ body {
         opacity: 1;
         cursor: pointer; }
   .navbar .logo {
-    width: 50px; }
+    width: 132px; }
 
 .nav-scroll {
   background: #11141b;
@@ -4751,7 +4752,7 @@ header.simpl {
     font-weight: 300;
     margin-bottom: 30px; }
   .footer-half .cont .logo {
-    width: 55px;
+    width: 132px;
     margin-bottom: 30px; }
   .footer-half .cont .con-info li {
     margin-top: 10px;
@@ -4881,7 +4882,7 @@ header.simpl {
       margin: 10px auto !important; }
   .navbar .logo {
     margin-left: 15px;
-    width: 50px; }
+    width: 130px; }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
     color: #fff !important; }

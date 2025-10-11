@@ -1,20 +1,50 @@
 [
     {
         "id": 1,
-        "title": "Digital Marketing",
+        "title": "Cloud & Servers",
         "icon": "pe-7s-gleam",
-        "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+        "content": "This would involve cloud hosting, server management, and related infrastructure services."
     },
     {
       "id": 2,
-      "title": "Web & App Development",
+      "title": "Tally Solutions",
       "icon": "pe-7s-phone",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "content": "Tally is a popular accounting and ERP software in India. This service likely includes Tally software sales, implementation, and support"
     },
     {
       "id": 3,
-      "title": "Graphic Design",
+      "title": "Digital Marketing",
       "icon": "pe-7s-magic-wand",
-      "content": "Tempore corrupti temporibus fuga earum asperiores fugit laudantium."
+      "content": "This is a broad category, but the user is likely offering services like SEO, social media marketing, and content marketing."
+    },
+    {
+      "id": 4,
+      "title": "DSC & Legal Services",
+      "icon": "pe-7s-magic-wand",
+      "content": "DSC stands for Digital Signature Certifi cate. This service likely involves providing DSCs and other related legal compliance services for businesses."
+    },
+    {
+      "id": 5,
+      "title": "Business Applications",
+      "icon": "pe-7s-magic-wand",
+      "content": "This could refer to custom software development, CRM implementation, or other business process automation tools."
+    },
+    {
+      "id": 6,
+      "title": "AI Agents",
+      "icon": "pe-7s-magic-wand",
+      "content": "This is a broad category, but the user is likely offering services like AI-driven chatbots, virtual assistants, and other intelligent automation solutions."
+    },
+    {
+      "id": 7,
+      "title": "App Development",
+      "icon": "pe-7s-magic-wand",
+      "content": "This is a broad category, but the user is likely offering services like mobile app development, web app development, and other related services."
+    },
+    {
+      "id": 8,
+      "title": "Web Applications",
+      "icon": "pe-7s-magic-wand",
+      "content": "This is a broad category, but the user is likely offering services like web application development, progressive web apps, and other related services."
     }
 ]

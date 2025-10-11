@@ -13,7 +13,7 @@ const Services2 = () => {
                 Website <br /> Developments
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -32,7 +32,7 @@ const Services2 = () => {
                 Product <br /> Photography
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -51,7 +51,7 @@ const Services2 = () => {
                 Mobile App <br /> Devlopment
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -72,7 +72,7 @@ const Services2 = () => {
                 Document <br /> Legal Policy
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -91,7 +91,7 @@ const Services2 = () => {
                 Managing <br /> Community
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -110,7 +110,7 @@ const Services2 = () => {
                 Coustomer <br /> Engagement
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/about/about">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
